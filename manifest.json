@@ -1,6 +1,6 @@
 {
-    "name": "Youtube",
-    "version": "3.0",
+    "name": "YTCoder",
+    "version": "0.1",
     "description":"Code editor on Youtube Platform",
     "minimum_chrome_version": "46",
     "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
