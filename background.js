@@ -25,28 +25,28 @@ setTimeout(() => {
             }
             else if(t1.includes("php") == true || t1.includes("PHP") == true || t1.includes("Php") == true)
             {
-                document.getElementById('secondary').innerHTML =  button_code  + '<iframe src="https://www.onlinegdb.com/online_php_interpreter" frameborder="0" style="width: 100%;height: 60rem;border-color: blue;border: 2px solid blue;"></iframe>';
+                document.getElementById('secondary').innerHTML =  button_code  + '<iframe src="https://www.jdoodle.com/php-online-editor/" frameborder="0" style="width: 100%;height: 60rem;border-color: blue;border: 2px solid blue;"></iframe>';
                 document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML = button_code + document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML         
             }
             else if(t1.includes("ruby") == true || t1.includes("Ruby") == true || t1.includes("RUBY") == true)
             {
-                document.getElementById('secondary').innerHTML =  button_code  + '<iframe src="https://www.onlinegdb.com/online_ruby_interpreter" frameborder="0" style="width: 100%;height: 60rem;border-color: blue;border: 2px solid blue;"></iframe>';
+                document.getElementById('secondary').innerHTML =  button_code  + '<iframe src="https://www.jdoodle.com/execute-ruby-online/" frameborder="0" style="width: 100%;height: 60rem;border-color: blue;border: 2px solid blue;"></iframe>';
                 document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML = button_code + document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML         
             }
             else if(t1.includes("perl") == true || t1.includes("Perl") == true || t1.includes("PERL") == true)
             {
-                document.getElementById('secondary').innerHTML =  button_code  + '<iframe src="https://www.onlinegdb.com/online_perl_compiler" frameborder="0" style="width: 100%;height: 60rem;border-color: blue;border: 2px solid blue;"></iframe>';
+                document.getElementById('secondary').innerHTML =  button_code  + '<iframe src="https://www.jdoodle.com/execute-perl-online/" frameborder="0" style="width: 100%;height: 60rem;border-color: blue;border: 2px solid blue;"></iframe>';
                 document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML = button_code + document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML         
             }
             else if(t1.includes("PASCAL") == true || t1.includes("Pascal") == true || t1.includes("pascal") == true)
             {
-                document.getElementById('secondary').innerHTML =  button_code  + '<iframe src="https://www.onlinegdb.com/online_pascal_compiler" frameborder="0" style="width: 100%;height: 60rem;border-color: blue;border: 2px solid blue;"></iframe>';
+                document.getElementById('secondary').innerHTML =  button_code  + '<iframe src="https://www.jdoodle.com/execute-pascal-online/" frameborder="0" style="width: 100%;height: 60rem;border-color: blue;border: 2px solid blue;"></iframe>';
                 document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML = button_code + document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML         
             }
             
             else if(t1.includes("FORTRAN") == true || t1.includes("Fortran") == true || t1.includes("fortran") == true)
             {
-                document.getElementById('secondary').innerHTML =  button_code  + '<iframe src="https://www.onlinegdb.com/online_fortran_compiler" frameborder="0" style="width: 100%;height: 60rem;border-color: blue;border: 2px solid blue;"></iframe>';
+                document.getElementById('secondary').innerHTML =  button_code  + '<iframe src="https://www.jdoodle.com/execute-fortran-online/" frameborder="0" style="width: 100%;height: 60rem;border-color: blue;border: 2px solid blue;"></iframe>';
                 document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML = button_code + document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML         
             }
             else if(t1.includes("HASKELL") == true || t1.includes("Haskell") == true || t1.includes("haskell") == true)
