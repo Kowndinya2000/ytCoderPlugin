@@ -9,7 +9,9 @@
         "matches" : ["https://www.youtube.com/watch*"],
         "js":["background.js"],
         "all_frames":true
-    }],
+    }
+    
+],
     
     "manifest_version":2
 }
