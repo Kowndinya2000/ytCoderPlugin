@@ -20,7 +20,7 @@ setTimeout(() => {
             }
             else if(t1.includes("python") == true || t1.includes("Python") == true || t1.includes("PYTHON") == true)
             {
-                document.getElementById('secondary').innerHTML =  button_code  + '<iframe src="https://www.onlinegdb.com/online_python_compiler" frameborder="0" style="width: 100%;height: 60rem;border-color: blue;border: 2px solid blue;"></iframe>';
+                document.getElementById('secondary').innerHTML =  button_code  + '<iframe src="https://www.jdoodle.com/python3-programming-online/" frameborder="0" style="width: 100%;height: 60rem;border-color: blue;border: 2px solid blue;"></iframe>';
                 document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML = button_code + document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML
             }
             else if(t1.includes("php") == true || t1.includes("PHP") == true || t1.includes("Php") == true)
