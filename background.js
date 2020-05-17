@@ -125,9 +125,9 @@ setTimeout(() => {
                 document.getElementById('secondary').innerHTML =   '<iframe src="https://www.jdoodle.com/compile-c-sharp-online/" frameborder="0" style="width: 100%;height: 60rem;border-color: blue;border: 2px solid blue;"></iframe>';
                 document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML = button_code + document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML
             }
-            else if(t1.includes(" C") == true || t1.includes("C ") == true) 
+            else if(t1.includes(" C") == true || t1.includes("C ") == true || t1.includes("c ") == true) 
             {
-                document.getElementById('secondary').innerHTML =   '<iframe src="https://www.onlinegdb.com/online_c_compiler" frameborder="0" style="width: 100%;height: 60rem;border-color: blue;border: 2px solid blue;"></iframe>';
+                document.getElementById('secondary').innerHTML =   '<iframe src="https://www.jdoodle.com/c-online-compiler/" frameborder="0" style="width: 100%;height: 60rem;border-color: blue;border: 2px solid blue;"></iframe>';
                 document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML = button_code + document.querySelectorAll('.style-scope.ytd-video-primary-info-renderer')[8].innerHTML
             }
             var button_object = document.getElementById('button_id')
