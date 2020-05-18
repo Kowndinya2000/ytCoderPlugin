@@ -3,7 +3,7 @@
   YTCoder
 </h2>
 <h4>
-  A Code editor integration on Youtube
+  A Code editor integration on Youtube.
 </h4>
 <p>
   We support the following languages
