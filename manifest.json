@@ -1,17 +1,47 @@
 {
     "name": "YTCoder",
     "version": "0.1",
-    "description":"Code editor on Youtube Platform",
+    "description":"Code editor integration on Youtube",
     "minimum_chrome_version": "46",
     "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
-    "permissions": ["alarms", "webRequest", "webRequestBlocking", "activeTab", "tabs"],
+    "permissions": ["alarms", "webRequest", "webRequestBlocking", "activeTab", "tabs","storage"],
     "content_scripts":[{
         "matches" : ["https://www.youtube.com/watch*"],
         "js":["background.js"],
         "all_frames":true
+    },
+    {
+        "matches" : ["https://www.jdoodle.com/online-java-compiler/"],
+        "js":["java_program.js"],
+        "all_frames":true
+    },
+    {
+        "matches" : ["https://www.jdoodle.com/compile-vb-dot-net-online/","https://www.jdoodle.com/test-bash-shell-script-online/","https://www.jdoodle.com/execute-go-online/","https://www.jdoodle.com/execute-r-online/","https://www.jdoodle.com/execute-rust-online/","https://www.jdoodle.com/execute-swift-online/","https://www.jdoodle.com/execute-prolog-online/","https://www.jdoodle.com/execute-sql-online/","https://www.jdoodle.com/execute-objective-c-online/","https://www.jdoodle.com/compile-assembler-gcc-online/","https://www.jdoodle.com/execute-haskell-online/","https://www.jdoodle.com/execute-fortran-online/","https://www.jdoodle.com/execute-pascal-online/","https://www.jdoodle.com/execute-perl-online/","https://www.jdoodle.com/execute-ruby-online/","https://www.jdoodle.com/php-online-editor/","https://www.jdoodle.com/compile-c-sharp-online/","https://www.jdoodle.com/c-online-compiler/","https://www.jdoodle.com/online-compiler-c++/","https://www.jdoodle.com/python3-programming-online/"],
+        "js":["csharp.js"],
+        "all_frames":true
+    },
+    {
+        "matches":["https://www.jdoodle.com/html-css-javascript-online-editor/"],
+        "js":["html.js"],
+        "all_frames":true
     }
     
 ],
+"browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+        "16": "y16.png",
+        "32": "y32.png",
+        "48": "y48.png",
+      "128": "y128.png"
+    }
+  },
+  "icons":{
+    "16": "y16.png",
+    "32": "y32.png",
+    "48": "y48.png",
+    "128": "y128.png"
+  },
     
     "manifest_version":2
 }
