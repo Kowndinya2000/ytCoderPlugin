@@ -6,6 +6,8 @@
   A Code editor integration on Youtube.
 </h4>
 <p>
+  You can practice on the code editor while watching programming tutorials on youtube.
+  Can be useful for those who practice while watching videos.
   We support the following languages
 </p>
 <p>C++</p>
