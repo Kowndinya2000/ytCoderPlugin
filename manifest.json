@@ -7,7 +7,7 @@
     "permissions": ["alarms", "webRequest", "webRequestBlocking", "activeTab", "tabs","storage"],
     "content_scripts":[{
         "matches" : ["https://www.youtube.com/watch*"],
-        "js":["background.js"],
+        "js":["back.js"],
         "all_frames":true
     },
     {
